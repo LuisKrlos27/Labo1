@@ -37,7 +37,44 @@ Entonces, para la dirección IP 192.168.10.10/30:
 <li>¿Que información se puede inferir de un host con la dirección 169.254.255.200/26?.</li>
 
 ---
-<li>¿Cuantas sub-redes puede lograr con la mascara 172.16.0.0/22?.</li>
-<li>¿Cuantos clientes puede tener la sub red 172.16.0.0/22?.</li>
-<li>¿Que clase y tipo de dirección es 10.10.10.0/24?.</li>
+
+ la dirección IP 169.254.255.200/26 indica que el host está tratando de configurar automáticamente una dirección IP en un enlace local debido a la falta de una asignación de IP válida a través de DHCP u otras configuraciones manuales. Esta práctica es común en situaciones en las que un dispositivo necesita comunicarse en una red local, pero no puede obtener una dirección IP válida de otros medios.
+
+---
+<li>¿Cuantas sub-redes puede lograr con la mascara 172.16.0.0/22?
+
+---
+
+la máscara de subred /22 significa que los primeros 22 bits están reservados para la parte de red, y los 10 bits restantes son para la parte de host.
+
+Para calcular el número de subredes posibles, podemos utilizar la fórmula 2^n, donde "n" es el número de bits de host que tenemos disponibles. En este caso, tenemos 10 bits para hosts.
+
+2^10 = 1024
+
+Por lo tanto, con la máscara de subred 172.16.0.0/22, puedes lograr un total de 1024 subredes posibles. Cada una de estas subredes tendría un rango de direcciones IP disponibles para asignar a los dispositivos conectados a ellas.
+
+---
+</li>
+<li>¿Cuantos clientes puede tener la sub red 172.16.0.0/22?
+
+---
+
+Teniendo en cuenta lo dicho anteriormente la cantidad de sub-redes calculadas son 1024.
+
+- Dirección de red: 172.16.0.0
+- Rango de direcciones IP utilizables: 172.16.0.1 a 172.16.3.254
+- Dirección de broadcast: 172.16.3.255
+
+Por lo tanto, en la subred 172.16.0.0/22, puedes tener hasta 1024 - 2 = 1022 clientes únicos utilizando direcciones IP dentro del rango de direcciones IP utilizables.
+</li>
+
+---
+
+<li>¿Que clase y tipo de dirección es 10.10.10.0/24?
+
+---
+La dirección IP 10.10.10.0/24 pertenece al rango privado de direcciones IP clase A.
+
+
+</li>
 </ol>
