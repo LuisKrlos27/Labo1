@@ -102,3 +102,13 @@ La dirección IP 10.10.10.0/24 pertenece al rango privado de direcciones IP clas
 |IP Broadcast|192.168.1.255|
 |Server DHCP|192.168.1.1|
 |Server DNS|8.8.8.8|
+
+## 4. [Caracterización de la puerta de enlace](#) ✔
+|Parámetro|Valor|
+|--|--:|
+|Número de Entradas en la tabla ARP |11|
+|IPv4 Gateway|192.168.1.1|
+|MAC Gateway|C4-70-0B-09-42-20|
+|ISP|Dobleclick Software E Ingeneria|
+|IP Publica|190.217.68.60|
+|Sistema Autónomo|AS3549|
