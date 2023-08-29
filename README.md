@@ -79,7 +79,7 @@ La dirección IP 10.10.10.0/24 pertenece al rango privado de direcciones IP clas
 </li>
 </ol>
 
-## [Caracterización de los adaptadores](#) ✔
+## 2. [Caracterización de los adaptadores](#) ✔
 
 |Parámetro||Valor|
 |--|:--:|--:|
@@ -90,7 +90,7 @@ La dirección IP 10.10.10.0/24 pertenece al rango privado de direcciones IP clas
 |Código MAC del fabricante|-->|3C-A0-67|
 |MAC|-->|F8-E4-3B-03-5F-4E|
 
-## 4. [Caracterización de la red](#) ✔
+## 3. [Caracterización de la red](#) ✔
 |Parámetro|Valor|
 |--|--:|
 |__Subnet__|192.168.1.0/24|
