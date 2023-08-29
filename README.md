@@ -4,10 +4,8 @@ LABO 1
 ## 1. [Preguntas reflexivas de ambientacion](#) ✔
 
 <ol type="a">
-<li>¿Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30?.
-</li>
+<li>¿Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30?.</li>
 
----
 Para encontrar la dirección de red, necesitamos tomar los primeros 30 bits de la dirección IP y poner los bits restantes a 0. Luego, para encontrar la dirección de broadcast, ponemos esos mismos 30 bits en la dirección de red a 1, y los últimos 2 bits a 1.
 
 Dado que tenemos la dirección IP 192.168.10.10/30:
