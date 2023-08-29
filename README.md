@@ -79,7 +79,7 @@ La dirección IP 10.10.10.0/24 pertenece al rango privado de direcciones IP clas
 </li>
 </ol>
 
-## [Caracterización de los adaptadores ✔](#)
+## [Caracterización de los adaptadores](#) ✔
 
 |Parámetro||Valor|
 |--|:--:|--:|
