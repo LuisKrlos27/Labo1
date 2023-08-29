@@ -112,3 +112,13 @@ La dirección IP 10.10.10.0/24 pertenece al rango privado de direcciones IP clas
 |ISP|Dobleclick Software E Ingeneria|
 |IP Publica|190.217.68.60|
 |Sistema Autónomo|AS3549|
+
+## 5. [Retardo de la red](#) ✔
+|Servidor|IP|Tiempo promedio/ms|
+|--|--|--|
+|DNS Google|8.8.8.8|85|
+|DNS Cloudflare|1.1.1.1|33|
+|OpenDNS|208.67.222.222|143|
+|Alternate DNS|76.76.19.19|30|
+|DNS Quad9|9.9.9.9|63|
+|AdGuard DNS|94.140.14.14|145|
