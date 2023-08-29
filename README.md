@@ -122,3 +122,11 @@ La dirección IP 10.10.10.0/24 pertenece al rango privado de direcciones IP clas
 |Alternate DNS|76.76.19.19|30|
 |DNS Quad9|9.9.9.9|63|
 |AdGuard DNS|94.140.14.14|145|
+
+## 6. [Capacidad del canal](#) ✔
+|Servidor|Ping/ms|Down/MB|Up/MB|
+|--|:--:|--:|--:|
+|speed test|43|3.65|2.66|
+|Netflix|3.1|26|55|
+|Claro|29|3.6|0.4|
+|nperf|41.00|3.835|3.950|
