@@ -90,3 +90,15 @@ La dirección IP 10.10.10.0/24 pertenece al rango privado de direcciones IP clas
 |Código MAC del fabricante|-->|3C-A0-67|
 |MAC|-->|F8-E4-3B-03-5F-4E|
 
+## 4. [Caracterización de la red](#) ✔
+|Parámetro|Valor|
+|--|--:|
+|__Subnet__|192.168.1.0/24|
+|IPv4|192.168.1.47|
+|Subnet Mask decimal|24|
+|Subnet Mask octetos|255.255.255.0|
+|Número de direcciones de Host|254|
+|Rango de direcciones de Host|192.168.1.1-254|
+|IP Broadcast|192.168.1.255|
+|Server DHCP|192.168.1.1|
+|Server DNS|8.8.8.8|
